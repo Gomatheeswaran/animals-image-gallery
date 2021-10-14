@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    border-bottom:solid rgb(242, 3, 250) 7px;
+    -moz-box-shadow:4px 4px 5px #888888; /* for mozilla */
+    -ms-box-shadow:4px 4px 5px #888888; /* for internet explorer */
+    -webkit-box-shadow:4px 4px 5px #888888; /* for safari and chrome*/
+    -o-box-shadow:4px 4px 5px #888888; /* for opera */
+    box-shadow: 4px 4px 5px #888888;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: rgb(226, 128, 250);
+    margin: 0px;
+}
